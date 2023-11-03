@@ -1,0 +1,108 @@
+html, a, button, input::placeholder
+{
+    color: white;
+}
+button
+{
+    font-size: unset;
+    font-family: unset;
+    border-style: unset;
+    margin: unset;
+    box-sizing: unset;
+    line-height: unset;
+}
+
+body, html
+{
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+input
+{
+    border: none;
+    outline: none;
+}
+
+
+
+
+
+.wrapper
+{
+    background-color: #4248f5;
+    border: 1px solid transparent;
+    position: relative;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 600px;
+    height: 70%;
+    box-shadow: 2px 2px  15px black;
+}
+
+.icon
+{
+    display: flex;
+    margin: 15% auto 0;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 100%;
+
+}
+
+.inputs
+{
+    width: 80%;
+    margin: 10% auto 0;
+}
+
+.input__name, .input__password, .input__mail
+{
+    background-color: #4248f5;
+    color: white;
+    width: 100%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 6px;
+    border: 1px solid white;
+}
+
+.button
+{
+    display: block;
+    background-color: #4248f5;
+    width: 90%;
+    margin: 40px auto 0 auto;
+    box-sizing: border-box;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    padding: 6px;
+    border: 1px solid white;
+}
+
+.forgetPassword
+{
+    padding: 15px 0;
+    text-align: center;
+}
+
+.footer
+{
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+
